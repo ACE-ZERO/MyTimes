@@ -11,13 +11,13 @@ header {
 
 nav li {
   display: inline-block;
-  align-items: center;
 }
 
 .logo {
   display: flex;
   color: MediumAquamarine;
   align-items: center;
+  flex-grow: 1;
 }
 
 .main{
@@ -36,17 +36,24 @@ nav li {
 
 .column.large {
   width: 630px;
-
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .column.medium {
   width: 300px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 
 }
 
 .column.small {
   width: 240px;
-
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 div {
@@ -58,4 +65,32 @@ span {
 
 p{
   border: 1px solid black;
+}
+
+.img-content {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  height: 300px;
+}
+
+.img-storymain {
+  background-image: url(/Users/AHK/Documents/Projects/MyTimes/resources/content/img-story-main.png);
+  font-size: 40px;
+  text-align: left;
+}
+
+.img1{
+  background-image: url(/Users/AHK/Documents/Projects/MyTimes/resources/content/img-story-2.png);
+}
+
+.img2 {
+  background-image: url(/Users/AHK/Documents/Projects/MyTimes/resources/content/img-story-3.png);
+}
+
+.img3 {
+  background-image: url(/Users/AHK/Documents/Projects/MyTimes/resources/content/img-story-1.png);
 }
