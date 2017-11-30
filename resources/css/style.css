@@ -7,17 +7,30 @@ header {
   justify-content: space-between;
   width: 100%;
   border-bottom: 1px solid black;
+  z-index: 1;
+  height: 80px;
 }
 
-nav li {
+nav span {
   display: inline-block;
+  padding: 20px 10px;
 }
 
 .logo {
   display: flex;
-  color: MediumAquamarine;
   align-items: center;
   flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo span {
+  color: MediumAquamarine;
+}
+
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
 }
 
 .main{
@@ -29,9 +42,9 @@ nav li {
 }
 
 .column {
-  border: 3px solid black;
   display: flex;
   flex-direction: column;
+  margin-right: 32px;
 }
 
 .column.large {
@@ -39,6 +52,22 @@ nav li {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  align-items: flex-start;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.story {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+}
+
+.text-content {
+  height: 250px;
 }
 
 .column.medium {
@@ -54,17 +83,6 @@ nav li {
   font-family: Georgia;
   font-size: 17px;
   color: black;
-}
-
-div {
-  border: 1px solid black;
-}
-span {
-  border: 1px solid black;
-}
-
-p{
-  border: 1px solid black;
 }
 
 .img-content {
