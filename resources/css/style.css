@@ -16,6 +16,10 @@ nav span {
   padding: 20px 10px;
 }
 
+header nav {
+  padding-right: 40px;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -55,6 +59,7 @@ nav span {
   color: black;
   align-items: flex-start;
   align-content: space-around;
+  margin-bottom: 50px;
 }
 
 .stories {
@@ -137,4 +142,35 @@ nav span {
 
 .img3 {
   background-image: url(/Users/AHK/Documents/Projects/MyTimes/resources/content/img-story-1.png);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 325px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.info .title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 17px;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+.copyright {
+  display: block;
 }
