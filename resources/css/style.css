@@ -1,7 +1,16 @@
+body {
+  margin: 0;
+}
+
+a {
+  color:black;
+}
+
 header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -9,6 +18,7 @@ header {
   border-bottom: 1px solid black;
   z-index: 1;
   height: 80px;
+  position: fixed;
 }
 
 nav span {
@@ -39,10 +49,11 @@ header nav {
 
 .main{
   display: flex;
+  width: 1450px;
   overflow: scroll;
   margin: 0 auto;
   justify-content: space-around;
-  padding-top: 50px;
+  padding-top: 130px;
 }
 
 .column {
@@ -173,4 +184,8 @@ footer nav {
 
 .copyright {
   display: block;
+}
+
+.info {
+  height: auto;
 }
