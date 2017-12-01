@@ -85,10 +85,15 @@ nav span {
 
 .column.small {
   display: flex;
+  flex-direction: column;
   width: 240px;
   font-family: Georgia;
   font-size: 17px;
   color: black;
+}
+
+.small span {
+  border-bottom: solid black;
 }
 
 .img-content {
